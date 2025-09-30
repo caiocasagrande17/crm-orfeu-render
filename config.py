@@ -1,20 +1,24 @@
+import os
+
 # ========================================
 # CONFIGURAÇÃO DO FIREBASE
 # ========================================
 # SUAS CREDENCIAIS DO FIREBASE (já configuradas!)
 FIREBASE_CONFIG = {
-    "apiKey": "AIzaSyAxJ_Z-99le4JfrktZNFLLKrZ54nxC5Oq0",
-    "authDomain": "jornada-vendedor-b2b---orfeu.firebaseapp.com",
-    "databaseURL": "https://jornada-vendedor-b2b---orfeu-default-rtdb.firebaseio.com",
-    "projectId": "jornada-vendedor-b2b---orfeu",
-    "storageBucket": "jornada-vendedor-b2b---orfeu.firebasestorage.app",
-    "messagingSenderId": "1043194750434",
-    "appId": "1:1043194750434:web:128475c97ecda425e345bb"
+    "apiKey": os.environ.get("FIREBASE_API_KEY"),
+    "authDomain": os.environ.get("FIREBASE_AUTH_DOMAIN"),
+    "databaseURL": os.environ.get("FIREBASE_DATABASE_URL"),
+    "projectId": os.environ.get("FIREBASE_PROJECT_ID"),
+    "storageBucket": os.environ.get("FIREBASE_STORAGE_BUCKET"),
+    "messagingSenderId": os.environ.get("FIREBASE_MESSAGING_SENDER_ID"),
+    "appId": os.environ.get("FIREBASE_APP_ID")
 }
 
 # ========================================
 # USUÁRIOS DO SISTEMA
 # ========================================
+# ATENÇÃO: Armazenar senhas em texto plano é inseguro.
+# O ideal é usar o sistema de autenticação do Firebase.
 USUARIOS = {
     # Administrador
     'admin': {
@@ -79,6 +83,6 @@ USUARIOS = {
 # ========================================
 # OUTRAS CONFIGURAÇÕES
 # ========================================
-GOOGLE_MAPS_KEY = "AIzaSyB6s0tsf4IBO7b3YqDQmhp2YwpbRIUG_AI"  # Sua chave do Google Maps
-GEMINI_API_KEY = "AIzaSyCbS73hYP6oC4Si2YgycYN29W0HKQy0ekw"  # Sua chave do Gemini
+GOOGLE_MAPS_KEY = os.environ.get("GOOGLE_MAPS_KEY")
+GEMINI_API_KEY = os.environ.get("GEMINI_API_KEY")
 META_MENSAL_DEFAULT = 250000  # Meta padrão

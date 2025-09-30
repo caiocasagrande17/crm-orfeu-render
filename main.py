@@ -52,7 +52,11 @@ except ImportError:
     META_MENSAL_DEFAULT = 250000
     GOOGLE_MAPS_KEY = "AIzaSyB6s0tsf4IBO7b3YqDQmhp2YwpbRIUG_AI"
     GEMINI_API_KEY = "AIzaSyCbS73hYP6oC4Si2YgycYN29W0HKQy0ekw"
-
+except (ImportError, ModuleNotFoundError):
+    # Fallback para variáveis de ambiente se config.py não for encontrado (bom para deploy)
+    # Isso garante que o app funcione no Render, que não terá o config.py
+    from fallback_config import get_fallback_config
+    FIREBASE_CONFIG, USUARIOS, META_MENSAL_DEFAULT, GOOGLE_MAPS_KEY, GEMINI_API_KEY = get_fallback_config()
 # --- CSS PERSONALIZADO COM TEMAS ---
 base_style = """
 <style>
@@ -239,13 +243,10 @@ dark_theme_style = """
     }
     .footer-text { color: #FAF7F2 !important; }
     .prospect-name { color: #FAF7F2 !important; }
-<<<<<<< HEAD
     /* Corrige a cor do texto no dropdown do admin no tema escuro */
     [data-baseweb="select"] [data-baseweb="list"] li {
         color: #2E2015 !important;
     }
-=======
->>>>>>> 94ce5102b9276c263e6673ee79f660db1eef4e14
     .meta-progress-card { background-color: #4A3728; }
     th { background-color: #4A3728 !important; }
 </style>
@@ -1286,11 +1287,7 @@ class AnalisadorAvancadoIA:
                 ],
                 "dica_abordagem": "Uma frase com uma sugestão estratégica (Ex: Foque na exclusividade e na experiência do cliente, não em preço)."
             }},
-<<<<<<< HEAD
             "mensagem_whatsapp": "Mensagem de WhatsApp para primeiro contato. Use a persona de vendedor B2B sênior da Orfeu. Seja elegante, confiante. Comece com um elogio autêntico baseado nas reviews e termine com uma pergunta aberta. Sem 'Olá'."
-=======
-            "mensagem_whatsapp": "Mensagem de WhatsApp para primeiro contato. Use a persona de vendedor B2B sênior da Orfeu. Seja elegante e confiante. Crie uma mensagem curta e única, baseada em um elogio autêntico das reviews. Varie o formato: pode ser uma observação, uma pergunta ou um elogio direto. Termine com uma pergunta aberta. Sem 'Olá' e evite começar sempre com 'Notei que...' ou 'Vi que...'."
->>>>>>> 94ce5102b9276c263e6673ee79f660db1eef4e14
         }}}}
         """
         
@@ -1897,10 +1894,6 @@ def gerar_mensagem_ia(reviews, nome_estabelecimento):
     {texto_reviews}
     ---
     Com base nisso, crie a mensagem (máximo 3 frases) que elogie um aspecto único do negócio, conecte sutilmente à qualidade do nosso café, e finalize com uma pergunta leve e aberta. Comece de forma direta, sem "Olá".
-<<<<<<< HEAD
-=======
-    Com base nisso, crie a mensagem (máximo 3 frases) que elogie um aspecto único do negócio, conecte sutilmente à qualidade do nosso café, e finalize com uma pergunta leve e aberta. Comece de forma direta, sem 'Olá', e evite inícios repetitivos como 'Vi que...' ou 'Notei que...'. Seja criativo na abordagem.
->>>>>>> 94ce5102b9276c263e6673ee79f660db1eef4e14
     """
     
     try:
@@ -2101,11 +2094,7 @@ def criar_dashboard_metricas():
                 paper_bgcolor='rgba(0,0,0,0)',
                 plot_bgcolor='rgba(0,0,0,0)'
             )
-<<<<<<< HEAD
             st.plotly_chart(fig, use_container_width=True, config={'displayModeBar': False, 'scrollZoom': False})
-=======
-            st.plotly_chart(fig, use_container_width=True)
->>>>>>> 94ce5102b9276c263e6673ee79f660db1eef4e14
     
     # Gráficos principais
     col1, col2, col3 = st.columns(3)
@@ -2146,11 +2135,7 @@ def criar_dashboard_metricas():
             yaxis=dict(showgrid=False),
             title_font_color="#FAF7F2" if st.session_state.get('theme', 'Escuro') == 'Escuro' else "#2E2015"
         )
-<<<<<<< HEAD
         st.plotly_chart(fig_funil, use_container_width=True, config={'displayModeBar': False, 'scrollZoom': False})
-=======
-        st.plotly_chart(fig_funil, use_container_width=True)
->>>>>>> 94ce5102b9276c263e6673ee79f660db1eef4e14
     
     with col2:
         # NOVO GRÁFICO: Temperatura dos Leads por Estágio
@@ -2184,11 +2169,7 @@ def criar_dashboard_metricas():
                 paper_bgcolor='rgba(0,0,0,0)',
                 title_font_color="#FAF7F2" if st.session_state.get('theme', 'Escuro') == 'Escuro' else "#2E2015"
             )
-<<<<<<< HEAD
             st.plotly_chart(fig_temp, use_container_width=True, config={'displayModeBar': False, 'scrollZoom': False})
-=======
-            st.plotly_chart(fig_temp, use_container_width=True)
->>>>>>> 94ce5102b9276c263e6673ee79f660db1eef4e14
             
     with col3:
         # Gráfico de leads por tipo
@@ -2218,11 +2199,7 @@ def criar_dashboard_metricas():
                 paper_bgcolor='rgba(0,0,0,0)',
                 title_font_color="#FAF7F2" if st.session_state.get('theme', 'Escuro') == 'Escuro' else "#2E2015"
             )
-<<<<<<< HEAD
             st.plotly_chart(fig_tipos, use_container_width=True, config={'displayModeBar': False, 'scrollZoom': False})
-=======
-            st.plotly_chart(fig_tipos, use_container_width=True)
->>>>>>> 94ce5102b9276c263e6673ee79f660db1eef4e14
 
 def exibir_kanban():
     # --- Injeção de JavaScript para o duplo clique ---
@@ -2785,11 +2762,7 @@ def aba_prospeccao():
         )
         min_avaliacoes = st.number_input(
             "💬 Mínimo de Avaliações",
-<<<<<<< HEAD
             min_value=0, value=20, step=10,
-=======
-            min_value=0, value=50, step=10,
->>>>>>> 94ce5102b9276c263e6673ee79f660db1eef4e14
             help="Volume mínimo para garantir estabelecimento ativo"
         )
         precos_disponiveis = {
@@ -2801,11 +2774,7 @@ def aba_prospeccao():
         precos_selecionados_str = st.multiselect(
             "💰 Faixa de Preço",
             options=list(precos_disponiveis.keys()),
-<<<<<<< HEAD
             default=['$$', '$$$', '$$$$'],
-=======
-            default=['$$', '$$$'],
->>>>>>> 94ce5102b9276c263e6673ee79f660db1eef4e14
             format_func=lambda x: precos_disponiveis[x],
             help="Estabelecimentos premium têm maior potencial"
         )
@@ -2964,11 +2933,7 @@ def aba_prospeccao():
                 yaxis=dict(showgrid=False),
                 title_font_color="#FAF7F2" if st.session_state.get('theme', 'Escuro') == 'Escuro' else "#2E2015"
             )
-<<<<<<< HEAD
             st.plotly_chart(fig_scores, use_container_width=True, config={'displayModeBar': False, 'scrollZoom': False})
-=======
-            st.plotly_chart(fig_scores, use_container_width=True)
->>>>>>> 94ce5102b9276c263e6673ee79f660db1eef4e14
             col1, col2 = st.columns(2)
             with col1:
                 st.markdown("### 🏆 Top 5 Leads")
@@ -2982,11 +2947,7 @@ def aba_prospeccao():
                     plot_bgcolor='rgba(0,0,0,0)',
                     paper_bgcolor='rgba(0,0,0,0)'
                 )
-<<<<<<< HEAD
                 st.plotly_chart(fig_tipos, use_container_width=True, config={'displayModeBar': False, 'scrollZoom': False})
-=======
-                st.plotly_chart(fig_tipos, use_container_width=True)
->>>>>>> 94ce5102b9276c263e6673ee79f660db1eef4e14
         if selected_indices:
             st.markdown("---")
             col1, col2, col3 = st.columns([2, 1, 2])
@@ -3296,49 +3257,6 @@ def aba_rotas():
             max_value=100,
             value=60
         )
-<<<<<<< HEAD
-=======
-
-    # Seção para adicionar visita externa (dentro de um container para evitar sobreposição)
-    with st.container():
-        with st.expander("➕ Adicionar Visita Externa à Rota"):
-            col_ext1, col_ext2 = st.columns([1, 2])
-            with col_ext1:
-                nome_externo = st.text_input("Nome do Cliente/Local", key="rota_nome_externo")
-            with col_ext2:
-                endereco_externo = st.text_input("Endereço Completo (Rua, Número, Bairro, Cidade)", key="rota_endereco_externo")
-
-            if st.button("Adicionar Visita Externa", key="add_visita_externa"):
-                if nome_externo and endereco_externo:
-                    try:
-                        gmaps = googlemaps.Client(key=MINHA_API_KEY)
-                        geocode_result = gmaps.geocode(endereco_externo)
-                        if geocode_result:
-                            loc = geocode_result[0]['geometry']['location']
-                            visita_externa = {
-                                'id': f"EXTERNO-{datetime.now().strftime('%Y%m%d%H%M%S')}",
-                                'nome': nome_externo,
-                                'endereco': geocode_result[0]['formatted_address'],
-                                'latitude': loc['lat'],
-                                'longitude': loc['lng'],
-                                'pontuacao': 0,
-                                'nota_media': 'N/A',
-                                'stage': 'Visita Externa',
-                                'tipo': 'Cliente Existente'
-                            }
-                            st.session_state.setdefault('leads_selecionados_rota', []).append(visita_externa)
-                            st.success(f"✅ '{nome_externo}' adicionado à rota!")
-                            st.rerun()
-                        else:
-                            st.error("❌ Endereço não encontrado. Verifique e tente novamente.")
-                    except Exception as e:
-                        st.error(f"Erro ao buscar endereço: {e}")
-                else:
-                    st.warning("Preencha o nome e o endereço da visita externa.")
-        
-        st.markdown("<div style='margin-top: 25px;'></div>", unsafe_allow_html=True) # Espaçador HTML para corrigir sobreposição
-
->>>>>>> 94ce5102b9276c263e6673ee79f660db1eef4e14
     st.subheader("2️⃣ Leads Disponíveis")
     leads_disponiveis = []
     for stage in filtro_stage:
@@ -3509,11 +3427,7 @@ def aba_relatorios():
     with col3:
         tipo_relatorio = st.selectbox(
             "Tipo de Relatório",
-<<<<<<< HEAD
             ["Dashboard Executivo", "Análise de Funil", "Performance de Vendas", 
-=======
-            ["Dashboard Executivo", "Análise de Funil", "Performance de Vendas", "Comparativo de Vendedores",
->>>>>>> 94ce5102b9276c263e6673ee79f660db1eef4e14
              "Análise Geográfica", "Relatório de Market Share"]
         )
     st.markdown("---")
@@ -3551,11 +3465,7 @@ def aba_relatorios():
                 hole=.3
             )])
             fig.update_layout(
-<<<<<<< HEAD
                 title="Distribuição por Temperatura", paper_bgcolor='rgba(0,0,0,0)', plot_bgcolor='rgba(0,0,0,0)',
-=======
-                title="Distribuição por Temperatura",
->>>>>>> 94ce5102b9276c263e6673ee79f660db1eef4e14
                 height=400,
                 showlegend=True
             )
@@ -3578,72 +3488,10 @@ def aba_relatorios():
                     title="Top 5 Bairros por Valor",
                     color_discrete_sequence=['#D2691E']
                 )
-<<<<<<< HEAD
                 fig.update_layout(height=400, paper_bgcolor='rgba(0,0,0,0)', plot_bgcolor='rgba(0,0,0,0)')
                 st.plotly_chart(fig, use_container_width=True)
             else:
                 st.info("Sem dados de bairros para exibir")
-=======
-                fig.update_layout(height=400)
-                st.plotly_chart(fig, use_container_width=True)
-            else:
-                st.info("Sem dados de bairros para exibir")
-    elif tipo_relatorio == "Comparativo de Vendedores":
-        st.subheader("🏆 Comparativo de Performance dos Vendedores")
-        if st.session_state.get('user_type') != 'admin':
-            st.warning("Acesso restrito a administradores.")
-            st.stop()
-
-        vendedores = {u: d for u, d in USUARIOS.items() if d['tipo'] == 'vendedor'}
-        dados_performance = []
-
-        with st.spinner("Carregando dados de todos os vendedores..."):
-            for user, data in vendedores.items():
-                dados_vendedor = carregar_dados_vendedor_especifico(user)
-                if dados_vendedor:
-                    leads_ganhos = len(dados_vendedor.get('crm_leads', {}).get('ganho', []))
-                    total_leads = sum(len(leads) for leads in dados_vendedor.get('crm_leads', {}).values())
-                    taxa_conversao = (leads_ganhos / total_leads * 100) if total_leads > 0 else 0
-                    
-                    chave_mes_atual = f"{data_inicio.year}-{data_inicio.month:02d}"
-                    vendas_periodo = dados_vendedor.get('dados_mensais', {}).get(chave_mes_atual, {}).get('vendas', [])
-                    faturamento = sum(v['valor'] for v in vendas_periodo)
-
-                    dados_performance.append({
-                        'Vendedor': data['nome'],
-                        'Faturamento (R$)': faturamento,
-                        'Leads Ganhos': leads_ganhos,
-                        'Taxa de Conversão (%)': taxa_conversao
-                    })
-
-        if dados_performance:
-            df_performance = pd.DataFrame(dados_performance)
-            st.dataframe(df_performance, use_container_width=True, hide_index=True)
-
-            col1, col2 = st.columns(2)
-            with col1:
-                fig1 = px.bar(df_performance, x='Vendedor', y='Faturamento (R$)', 
-                              title="Faturamento por Vendedor", color='Vendedor')
-                st.plotly_chart(fig1, use_container_width=True)
-            with col2:
-                fig2 = px.bar(df_performance, x='Vendedor', y='Taxa de Conversão (%)', 
-                              title="Taxa de Conversão por Vendedor", color='Vendedor')
-                st.plotly_chart(fig2, use_container_width=True)
-
-            # Ranking
-            st.subheader("🥇 Ranking Geral")
-            df_performance['Score'] = (
-                df_performance['Faturamento (R$)'].rank(pct=True) * 0.5 +
-                df_performance['Leads Ganhos'].rank(pct=True) * 0.3 +
-                df_performance['Taxa de Conversão (%)'].rank(pct=True) * 0.2
-            )
-            df_ranking = df_performance.sort_values('Score', ascending=False)[['Vendedor', 'Score']]
-            st.dataframe(df_ranking, use_container_width=True, hide_index=True)
-
-        else:
-            st.info("Não foi possível carregar os dados de performance.")
-
->>>>>>> 94ce5102b9276c263e6673ee79f660db1eef4e14
     elif tipo_relatorio == "Relatório de Market Share":
         st.subheader("📊 Análise de Market Share")
         cafes_atuais = {}
@@ -3682,22 +3530,14 @@ def aba_relatorios():
                 df_cafes = pd.DataFrame(list(cafes_atuais.items()), columns=['Marca', 'Quantidade'])
                 df_cafes = df_cafes.sort_values('Quantidade', ascending=False).head(10)
                 fig = px.pie(df_cafes, values='Quantidade', names='Marca',
-<<<<<<< HEAD
                             title="Market Share por Marca de Café", color_discrete_sequence=px.colors.sequential.YlOrBr)
-=======
-                            title="Market Share por Marca de Café")
->>>>>>> 94ce5102b9276c263e6673ee79f660db1eef4e14
                 st.plotly_chart(fig, use_container_width=True)
             else:
                 st.info("Sem dados de marcas para exibir")
         with col2:
             if tipos_maquina:
                 df_maquinas = pd.DataFrame(list(tipos_maquina.items()), columns=['Tipo', 'Quantidade'])
-<<<<<<< HEAD
                 fig = px.bar(df_maquinas, x='Quantidade', y='Tipo', orientation='h',
-=======
-                fig = px.bar(df_maquinas, x='Tipo', y='Quantidade',
->>>>>>> 94ce5102b9276c263e6673ee79f660db1eef4e14
                             title="Tipos de Máquinas no Mercado",
                             color_discrete_sequence=['#E5833E'])
                 st.plotly_chart(fig, use_container_width=True)
