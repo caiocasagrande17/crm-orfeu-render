@@ -1,0 +1,22 @@
+{
+  "crm_leads": {
+    "novo": [],
+    "contactado": [],
+    "qualificado": [],
+    "proposta": [],
+    "negociacao": [],
+    "ganho": [],
+    "perdido": []
+  },
+  "atividades": [],
+  "historico_interacoes": {},
+  "analises_ia": {},
+  "dados_mensais": {
+    "2025-09": {
+      "meta": 250000.0,
+      "porcentagem_meta": 100,
+      "vendas": []
+    }
+  },
+  "timestamp": "2025-09-19T12:17:05.845289"
+}

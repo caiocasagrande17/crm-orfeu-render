@@ -1,0 +1,1251 @@
+{
+  "crm_leads": {
+    "novo": [
+      {
+        "id": "LEAD-20250922121351-0",
+        "nome": "Café Épico",
+        "telefone": "(21) 3022-6080",
+        "email": "N/A",
+        "website": "https://www.cafeepico.com.br/",
+        "instagram": "N/A",
+        "pontuacao": 140,
+        "nota_media": 4.7,
+        "endereco": "Rua Acre, 64 - Centro, Rio de Janeiro",
+        "bairro": "Centro",
+        "cidade": "Rio De Janeiro",
+        "latitude": -22.89895469999999,
+        "longitude": -43.1814251,
+        "tipo": "Cafe",
+        "data_entrada": "2025-09-22 12:13",
+        "ultimo_contato": null,
+        "proximo_contato": "2025-09-23",
+        "valor_estimado": 1296.0,
+        "faturamento_estimado": 21600.0,
+        "consumo_cafe_kg": 10.8,
+        "volume_clientes": 20.0,
+        "ticket_medio": 36.0,
+        "probabilidade": 10,
+        "responsavel": "Usuário Demo",
+        "notas": "Lead com faturamento sólido e bom volume. Foco em qualidade. A abordagem deve ser na diferenciação e aumento do ticket médio.",
+        "insights_ia": "Notamos o quanto seus clientes elogiam o Premium/Sofisticado - Valoriza qualidade e experiência. Um café à altura, como o da Orfeu, pode elevar ainda mais essa experiência. Qual sua opinião sobre o café que servem hoje?",
+        "visitas": [],
+        "nome_contato": "Não informado",
+        "cargo_contato": "Não informado",
+        "telefone_contato": "Não informado",
+        "analise_completa": {
+          "tamanho_estimado": "medio",
+          "volume_clientes_dia": 20.0,
+          "ticket_medio": 36.0,
+          "consumo_cafe_estimado_kg": 10.8,
+          "faturamento_mensal_estimado": 21600.0,
+          "potencial_venda_cafe": 1296.0,
+          "perfil_cliente": "Premium/Sofisticado - Valoriza qualidade e experiência",
+          "melhor_horario_visita": "14h-16h (entre picos de movimento)",
+          "pontos_fortes": [],
+          "oportunidades": [],
+          "preco_expresso_estimado": 6.0,
+          "num_funcionarios": 12.0,
+          "tamanho_m2": 100.0,
+          "horario_pico": null,
+          "tempo_permanencia_medio": 60.0,
+          "taxa_ocupacao_media": 0.6,
+          "confiabilidade_dados": 15.0,
+          "fontes_dados": [
+            "Análise Estatística"
+          ],
+          "mencoes_cafe": 5.0,
+          "qualidade_cafe_score": 5.0,
+          "sentiment_score": 100.0,
+          "instagram_followers": 4505.0,
+          "popular_times": {},
+          "servicos_oferecidos": {
+            "cafe_manha": true,
+            "almoco": true,
+            "jantar": false,
+            "delivery": false,
+            "wifi": false,
+            "estacionamento": false
+          },
+          "resumo_executivo": "Lead com faturamento sólido e bom volume. Foco em qualidade. A abordagem deve ser na diferenciação e aumento do ticket médio.",
+          "gatilhos_venda": {
+            "pontos_fortes": [
+              "Alto volume: 20.0 clientes/dia comprovados",
+              "Faturamento sólido de R$ 21,600/mês"
+            ],
+            "oportunidades": [
+              "Potencial de 10.8kg/mês = R$ 1,296.00",
+              "Melhoria na qualidade do café (atual: 5.0/5)"
+            ],
+            "dica_abordagem": "Visitar no horário 14h-16h (entre picos de movimento) e demonstrar impacto no ticket médio."
+          },
+          "mensagem_whatsapp": "Notamos o quanto seus clientes elogiam o Premium/Sofisticado - Valoriza qualidade e experiência. Um café à altura, como o da Orfeu, pode elevar ainda mais essa experiência. Qual sua opinião sobre o café que servem hoje?"
+        },
+        "tags": [
+          "🔥 Hot Lead",
+          "⭐ Alta Qualidade",
+          "☕ Cafeteria"
+        ],
+        "historico": [],
+        "selecionado_rota": false,
+        "temperatura": "nao definido",
+        "cafe_atual": "Não informado",
+        "volume_kg_mensal": 10.8,
+        "preco_expresso": 6.0,
+        "preco_cafe_compra": 0,
+        "tipo_maquina": "Não informado",
+        "tem_comodato": "Não informado"
+      },
+      {
+        "id": "LEAD-20250923154329-2",
+        "nome": "Casa do Pão",
+        "telefone": "(21) 2224-8617",
+        "email": "N/A",
+        "website": "https://casadopaorio.com.br/",
+        "instagram": "N/A",
+        "pontuacao": 100,
+        "nota_media": 4.1,
+        "endereco": "Rua Miguel Couto, 35 - Centro, Rio de Janeiro",
+        "bairro": "Centro",
+        "cidade": "Rio De Janeiro",
+        "latitude": -22.9027738,
+        "longitude": -43.1791648,
+        "tipo": "Bakery",
+        "data_entrada": "2025-09-23 15:43",
+        "ultimo_contato": null,
+        "proximo_contato": "2025-09-24",
+        "valor_estimado": 336.0,
+        "faturamento_estimado": 16200.0,
+        "consumo_cafe_kg": 2.8,
+        "volume_clientes": 20.0,
+        "ticket_medio": 27.0,
+        "probabilidade": 10,
+        "responsavel": "Usuário Demo",
+        "notas": "Lead com faturamento sólido e bom volume. Foco em qualidade. A abordagem deve ser na diferenciação e aumento do ticket médio.",
+        "insights_ia": "Notamos o quanto seus clientes elogiam o Corporativo - Frequentado por profissionais. Um café à altura, como o da Orfeu, pode elevar ainda mais essa experiência. Qual sua opinião sobre o café que servem hoje?",
+        "visitas": [],
+        "nome_contato": "Não informado",
+        "cargo_contato": "Não informado",
+        "telefone_contato": "Não informado",
+        "analise_completa": {
+          "tamanho_estimado": "pequeno",
+          "volume_clientes_dia": 20.0,
+          "ticket_medio": 27.0,
+          "consumo_cafe_estimado_kg": 2.8,
+          "faturamento_mensal_estimado": 16200.0,
+          "potencial_venda_cafe": 336.0,
+          "perfil_cliente": "Corporativo - Frequentado por profissionais",
+          "melhor_horario_visita": "14h-16h (entre picos de movimento)",
+          "pontos_fortes": [],
+          "oportunidades": [],
+          "preco_expresso_estimado": 4.8,
+          "num_funcionarios": 18.0,
+          "tamanho_m2": 100.0,
+          "horario_pico": null,
+          "tempo_permanencia_medio": 60.0,
+          "taxa_ocupacao_media": 0.6,
+          "confiabilidade_dados": 15.0,
+          "fontes_dados": [
+            "Análise Estatística"
+          ],
+          "mencoes_cafe": 0.0,
+          "qualidade_cafe_score": 0.0,
+          "sentiment_score": 20.0,
+          "instagram_followers": 6185.0,
+          "popular_times": {},
+          "servicos_oferecidos": {
+            "cafe_manha": true,
+            "almoco": false,
+            "jantar": false,
+            "delivery": false,
+            "wifi": false,
+            "estacionamento": false
+          },
+          "resumo_executivo": "Lead com faturamento sólido e bom volume. Foco em qualidade. A abordagem deve ser na diferenciação e aumento do ticket médio.",
+          "gatilhos_venda": {
+            "pontos_fortes": [
+              "Alto volume: 20.0 clientes/dia comprovados",
+              "Faturamento sólido de R$ 16,200/mês"
+            ],
+            "oportunidades": [
+              "Potencial de 2.8kg/mês = R$ 336.00",
+              "Melhoria na qualidade do café (atual: 0.0/5)"
+            ],
+            "dica_abordagem": "Visitar no horário 14h-16h (entre picos de movimento) e demonstrar impacto no ticket médio."
+          },
+          "mensagem_whatsapp": "Notamos o quanto seus clientes elogiam o Corporativo - Frequentado por profissionais. Um café à altura, como o da Orfeu, pode elevar ainda mais essa experiência. Qual sua opinião sobre o café que servem hoje?"
+        },
+        "tags": [
+          "🔥 Hot Lead",
+          "🥐 Padaria"
+        ],
+        "historico": [],
+        "selecionado_rota": false,
+        "temperatura": "nao definido",
+        "cafe_atual": "Não informado",
+        "volume_kg_mensal": 2.8,
+        "preco_expresso": 4.8,
+        "preco_cafe_compra": 0,
+        "tipo_maquina": "Não informado",
+        "tem_comodato": "Não informado"
+      },
+      {
+        "id": "LEAD-20250923154334-3",
+        "nome": "Focaccia Café",
+        "telefone": "(21) 2224-5073",
+        "email": "N/A",
+        "website": "N/A",
+        "instagram": "N/A",
+        "pontuacao": 95,
+        "nota_media": 4.1,
+        "endereco": "Livraria da Travessa - Rua Sete de Setembro, 54 - Centro, Rio de Janeiro",
+        "bairro": "Centro",
+        "cidade": "Rio De Janeiro",
+        "latitude": -22.9042587,
+        "longitude": -43.17684399999999,
+        "tipo": "Cafe",
+        "data_entrada": "2025-09-23 15:43",
+        "ultimo_contato": null,
+        "proximo_contato": "2025-09-24",
+        "valor_estimado": 1704.0,
+        "faturamento_estimado": 23400.0,
+        "consumo_cafe_kg": 14.2,
+        "volume_clientes": 26.0,
+        "ticket_medio": 30.0,
+        "probabilidade": 10,
+        "responsavel": "Usuário Demo",
+        "notas": "Lead com faturamento sólido e bom volume. Foco em qualidade. A abordagem deve ser na diferenciação e aumento do ticket médio.",
+        "insights_ia": "Notamos o quanto seus clientes elogiam o Premium/Sofisticado - Valoriza qualidade e experiência. Um café à altura, como o da Orfeu, pode elevar ainda mais essa experiência. Qual sua opinião sobre o café que servem hoje?",
+        "visitas": [],
+        "nome_contato": "Não informado",
+        "cargo_contato": "Não informado",
+        "telefone_contato": "Não informado",
+        "analise_completa": {
+          "tamanho_estimado": "pequeno",
+          "volume_clientes_dia": 26.0,
+          "ticket_medio": 30.0,
+          "consumo_cafe_estimado_kg": 14.2,
+          "faturamento_mensal_estimado": 23400.0,
+          "potencial_venda_cafe": 1704.0,
+          "perfil_cliente": "Premium/Sofisticado - Valoriza qualidade e experiência",
+          "melhor_horario_visita": "14h-16h (entre picos de movimento)",
+          "pontos_fortes": [],
+          "oportunidades": [],
+          "preco_expresso_estimado": 6.0,
+          "num_funcionarios": 12.0,
+          "tamanho_m2": 100.0,
+          "horario_pico": null,
+          "tempo_permanencia_medio": 60.0,
+          "taxa_ocupacao_media": 0.6,
+          "confiabilidade_dados": 25.0,
+          "fontes_dados": [
+            "Reviews Google"
+          ],
+          "mencoes_cafe": 0.0,
+          "qualidade_cafe_score": 0.0,
+          "sentiment_score": 60.0,
+          "instagram_followers": 0.0,
+          "popular_times": {},
+          "servicos_oferecidos": {
+            "cafe_manha": true,
+            "almoco": true,
+            "jantar": false,
+            "delivery": false,
+            "wifi": false,
+            "estacionamento": false
+          },
+          "resumo_executivo": "Lead com faturamento sólido e bom volume. Foco em qualidade. A abordagem deve ser na diferenciação e aumento do ticket médio.",
+          "gatilhos_venda": {
+            "pontos_fortes": [
+              "Alto volume: 26.0 clientes/dia comprovados",
+              "Faturamento sólido de R$ 23,400/mês"
+            ],
+            "oportunidades": [
+              "Potencial de 14.2kg/mês = R$ 1,704.00",
+              "Melhoria na qualidade do café (atual: 0.0/5)"
+            ],
+            "dica_abordagem": "Visitar no horário 14h-16h (entre picos de movimento) e demonstrar impacto no ticket médio."
+          },
+          "mensagem_whatsapp": "Notamos o quanto seus clientes elogiam o Premium/Sofisticado - Valoriza qualidade e experiência. Um café à altura, como o da Orfeu, pode elevar ainda mais essa experiência. Qual sua opinião sobre o café que servem hoje?"
+        },
+        "tags": [
+          "🔥 Hot Lead",
+          "☕ Cafeteria"
+        ],
+        "historico": [],
+        "selecionado_rota": false,
+        "temperatura": "nao definido",
+        "cafe_atual": "Não informado",
+        "volume_kg_mensal": 14.2,
+        "preco_expresso": 6.0,
+        "preco_cafe_compra": 0,
+        "tipo_maquina": "Não informado",
+        "tem_comodato": "Não informado"
+      },
+      {
+        "id": "LEAD-20250924092652-3",
+        "nome": "Café Épico",
+        "telefone": "(21) 3022-6080",
+        "email": "N/A",
+        "website": "https://www.cafeepico.com.br/",
+        "instagram": "N/A",
+        "pontuacao": 140,
+        "nota_media": 4.7,
+        "endereco": "Rua Acre, 64 - Centro, Rio de Janeiro",
+        "bairro": "Centro",
+        "cidade": "Rio De Janeiro",
+        "latitude": -22.89895469999999,
+        "longitude": -43.1814251,
+        "tipo": "Cafe",
+        "data_entrada": "2025-09-24 09:26",
+        "ultimo_contato": null,
+        "proximo_contato": "2025-09-25",
+        "valor_estimado": 1296.0,
+        "faturamento_estimado": 21600.0,
+        "consumo_cafe_kg": 10.8,
+        "volume_clientes": 20.0,
+        "ticket_medio": 36.0,
+        "probabilidade": 10,
+        "responsavel": "Usuário Demo",
+        "notas": "Lead com faturamento sólido e bom volume. Foco em qualidade. A abordagem deve ser na diferenciação e aumento do ticket médio.",
+        "insights_ia": "Notamos o quanto seus clientes elogiam o Premium/Sofisticado - Valoriza qualidade e experiência. Um café à altura, como o da Orfeu, pode elevar ainda mais essa experiência. Qual sua opinião sobre o café que servem hoje?",
+        "visitas": [],
+        "nome_contato": "Não informado",
+        "cargo_contato": "Não informado",
+        "telefone_contato": "Não informado",
+        "analise_completa": {
+          "tamanho_estimado": "medio",
+          "volume_clientes_dia": 20.0,
+          "ticket_medio": 36.0,
+          "consumo_cafe_estimado_kg": 10.8,
+          "faturamento_mensal_estimado": 21600.0,
+          "potencial_venda_cafe": 1296.0,
+          "perfil_cliente": "Premium/Sofisticado - Valoriza qualidade e experiência",
+          "melhor_horario_visita": "14h-16h (entre picos de movimento)",
+          "pontos_fortes": [],
+          "oportunidades": [],
+          "preco_expresso_estimado": 6.0,
+          "num_funcionarios": 12.0,
+          "tamanho_m2": 100.0,
+          "horario_pico": null,
+          "tempo_permanencia_medio": 60.0,
+          "taxa_ocupacao_media": 0.6,
+          "confiabilidade_dados": 15.0,
+          "fontes_dados": [
+            "Análise Estatística"
+          ],
+          "mencoes_cafe": 5.0,
+          "qualidade_cafe_score": 5.0,
+          "sentiment_score": 100.0,
+          "instagram_followers": 11443.0,
+          "popular_times": {},
+          "servicos_oferecidos": {
+            "cafe_manha": true,
+            "almoco": true,
+            "jantar": false,
+            "delivery": false,
+            "wifi": false,
+            "estacionamento": false
+          },
+          "resumo_executivo": "Lead com faturamento sólido e bom volume. Foco em qualidade. A abordagem deve ser na diferenciação e aumento do ticket médio.",
+          "gatilhos_venda": {
+            "pontos_fortes": [
+              "Alto volume: 20.0 clientes/dia comprovados",
+              "Faturamento sólido de R$ 21,600/mês"
+            ],
+            "oportunidades": [
+              "Potencial de 10.8kg/mês = R$ 1,296.00",
+              "Melhoria na qualidade do café (atual: 5.0/5)"
+            ],
+            "dica_abordagem": "Visitar no horário 14h-16h (entre picos de movimento) e demonstrar impacto no ticket médio."
+          },
+          "mensagem_whatsapp": "Notamos o quanto seus clientes elogiam o Premium/Sofisticado - Valoriza qualidade e experiência. Um café à altura, como o da Orfeu, pode elevar ainda mais essa experiência. Qual sua opinião sobre o café que servem hoje?"
+        },
+        "tags": [
+          "🔥 Hot Lead",
+          "⭐ Alta Qualidade",
+          "☕ Cafeteria"
+        ],
+        "historico": [],
+        "selecionado_rota": false,
+        "temperatura": "nao definido",
+        "cafe_atual": "Não informado",
+        "volume_kg_mensal": 10.8,
+        "preco_expresso": 6.0,
+        "preco_cafe_compra": 0,
+        "tipo_maquina": "Não informado",
+        "tem_comodato": "Não informado"
+      },
+      {
+        "id": "LEAD-20250924092703-4",
+        "nome": "Coffee Five",
+        "telefone": "(21) 99910-3534",
+        "email": "N/A",
+        "website": "http://coffeefive.com.br/",
+        "instagram": "N/A",
+        "pontuacao": 120,
+        "nota_media": 4.8,
+        "endereco": "Rua da Quitanda, 86 - quiosque 01 - Centro, Rio de Janeiro",
+        "bairro": "Centro",
+        "cidade": "Rio De Janeiro",
+        "latitude": -22.9025663,
+        "longitude": -43.1767791,
+        "tipo": "Cafe",
+        "data_entrada": "2025-09-24 09:27",
+        "ultimo_contato": null,
+        "proximo_contato": "2025-09-25",
+        "valor_estimado": 2328.0,
+        "faturamento_estimado": 23040.0,
+        "consumo_cafe_kg": 19.4,
+        "volume_clientes": 24.0,
+        "ticket_medio": 32.0,
+        "probabilidade": 10,
+        "responsavel": "Usuário Demo",
+        "notas": "Lead com faturamento sólido e bom volume. Foco em qualidade. A abordagem deve ser na diferenciação e aumento do ticket médio.",
+        "insights_ia": "Notamos o quanto seus clientes elogiam o Premium/Sofisticado - Valoriza qualidade e experiência. Um café à altura, como o da Orfeu, pode elevar ainda mais essa experiência. Qual sua opinião sobre o café que servem hoje?",
+        "visitas": [],
+        "nome_contato": "Não informado",
+        "cargo_contato": "Não informado",
+        "telefone_contato": "Não informado",
+        "analise_completa": {
+          "tamanho_estimado": "grande",
+          "volume_clientes_dia": 24.0,
+          "ticket_medio": 32.0,
+          "consumo_cafe_estimado_kg": 19.4,
+          "faturamento_mensal_estimado": 23040.0,
+          "potencial_venda_cafe": 2328.0,
+          "perfil_cliente": "Premium/Sofisticado - Valoriza qualidade e experiência",
+          "melhor_horario_visita": "14h-16h (entre picos de movimento)",
+          "pontos_fortes": [],
+          "oportunidades": [],
+          "preco_expresso_estimado": 6.0,
+          "num_funcionarios": 12.0,
+          "tamanho_m2": 100.0,
+          "horario_pico": null,
+          "tempo_permanencia_medio": 60.0,
+          "taxa_ocupacao_media": 0.6,
+          "confiabilidade_dados": 15.0,
+          "fontes_dados": [
+            "Análise Estatística"
+          ],
+          "mencoes_cafe": 5.0,
+          "qualidade_cafe_score": 5.0,
+          "sentiment_score": 100.0,
+          "instagram_followers": 7913.0,
+          "popular_times": {},
+          "servicos_oferecidos": {
+            "cafe_manha": true,
+            "almoco": true,
+            "jantar": false,
+            "delivery": false,
+            "wifi": false,
+            "estacionamento": false
+          },
+          "resumo_executivo": "Lead com faturamento sólido e bom volume. Foco em qualidade. A abordagem deve ser na diferenciação e aumento do ticket médio.",
+          "gatilhos_venda": {
+            "pontos_fortes": [
+              "Alto volume: 24.0 clientes/dia comprovados",
+              "Faturamento sólido de R$ 23,040/mês"
+            ],
+            "oportunidades": [
+              "Potencial de 19.4kg/mês = R$ 2,328.00",
+              "Melhoria na qualidade do café (atual: 5.0/5)"
+            ],
+            "dica_abordagem": "Visitar no horário 14h-16h (entre picos de movimento) e demonstrar impacto no ticket médio."
+          },
+          "mensagem_whatsapp": "Notamos o quanto seus clientes elogiam o Premium/Sofisticado - Valoriza qualidade e experiência. Um café à altura, como o da Orfeu, pode elevar ainda mais essa experiência. Qual sua opinião sobre o café que servem hoje?"
+        },
+        "tags": [
+          "🔥 Hot Lead",
+          "⭐ Alta Qualidade",
+          "☕ Cafeteria"
+        ],
+        "historico": [],
+        "selecionado_rota": false,
+        "temperatura": "nao definido",
+        "cafe_atual": "Não informado",
+        "volume_kg_mensal": 19.4,
+        "preco_expresso": 6.0,
+        "preco_cafe_compra": 0,
+        "tipo_maquina": "Não informado",
+        "tem_comodato": "Não informado"
+      },
+      {
+        "id": "LEAD-20250924094655-5",
+        "nome": "Oteque",
+        "telefone": "(21) 3486-5758",
+        "email": "N/A",
+        "website": "https://www.oteque.com/",
+        "instagram": "N/A",
+        "pontuacao": 70,
+        "nota_media": 4.7,
+        "endereco": "Rua Conde de Irajá, 581 - Botafogo, Rio de Janeiro - RJ, 22271-020, Brasil",
+        "bairro": "Rua Conde de Irajá",
+        "cidade": "Rio de Janeiro",
+        "latitude": -22.9574723,
+        "longitude": -43.1943018,
+        "tipo": "Establishment",
+        "data_entrada": "2025-09-24 09:46",
+        "ultimo_contato": null,
+        "proximo_contato": "2025-09-25",
+        "valor_estimado": 228.0,
+        "faturamento_estimado": 24000.0,
+        "consumo_cafe_kg": 1.9,
+        "volume_clientes": 20.0,
+        "ticket_medio": 40.0,
+        "probabilidade": 10,
+        "responsavel": "Usuário Demo",
+        "notas": "Lead com faturamento sólido e bom volume. Foco em qualidade. A abordagem deve ser na diferenciação e aumento do ticket médio.",
+        "insights_ia": "Notamos o quanto seus clientes elogiam o Premium/Sofisticado - Valoriza qualidade e experiência. Um café à altura, como o da Orfeu, pode elevar ainda mais essa experiência. Qual sua opinião sobre o café que servem hoje?",
+        "visitas": [],
+        "nome_contato": "Não informado",
+        "cargo_contato": "Não informado",
+        "telefone_contato": "Não informado",
+        "analise_completa": {
+          "tamanho_estimado": "pequeno",
+          "volume_clientes_dia": 20.0,
+          "ticket_medio": 40.0,
+          "consumo_cafe_estimado_kg": 1.9,
+          "faturamento_mensal_estimado": 24000.0,
+          "potencial_venda_cafe": 228.0,
+          "perfil_cliente": "Premium/Sofisticado - Valoriza qualidade e experiência",
+          "melhor_horario_visita": "14h-16h (entre picos de movimento)",
+          "pontos_fortes": [],
+          "oportunidades": [],
+          "preco_expresso_estimado": 6.0,
+          "num_funcionarios": 15.0,
+          "tamanho_m2": 150.0,
+          "horario_pico": null,
+          "tempo_permanencia_medio": 60.0,
+          "taxa_ocupacao_media": 0.6,
+          "confiabilidade_dados": 35.0,
+          "fontes_dados": [
+            "Pesquisa Web",
+            "Análise Estatística"
+          ],
+          "mencoes_cafe": 0.0,
+          "qualidade_cafe_score": 0.0,
+          "sentiment_score": 88.0,
+          "instagram_followers": 5420.0,
+          "popular_times": {},
+          "servicos_oferecidos": {
+            "cafe_manha": false,
+            "almoco": false,
+            "jantar": false,
+            "delivery": false,
+            "wifi": false,
+            "estacionamento": false
+          },
+          "resumo_executivo": "Lead com faturamento sólido e bom volume. Foco em qualidade. A abordagem deve ser na diferenciação e aumento do ticket médio.",
+          "gatilhos_venda": {
+            "pontos_fortes": [
+              "Alto volume: 20.0 clientes/dia comprovados",
+              "Faturamento sólido de R$ 24,000/mês"
+            ],
+            "oportunidades": [
+              "Potencial de 1.9kg/mês = R$ 228.00",
+              "Melhoria na qualidade do café (atual: 0.0/5)"
+            ],
+            "dica_abordagem": "Visitar no horário 14h-16h (entre picos de movimento) e demonstrar impacto no ticket médio."
+          },
+          "mensagem_whatsapp": "Notamos o quanto seus clientes elogiam o Premium/Sofisticado - Valoriza qualidade e experiência. Um café à altura, como o da Orfeu, pode elevar ainda mais essa experiência. Qual sua opinião sobre o café que servem hoje?"
+        },
+        "tags": [
+          "♨️ Warm Lead",
+          "⭐ Alta Qualidade"
+        ],
+        "historico": [],
+        "selecionado_rota": false,
+        "temperatura": "nao definido",
+        "cafe_atual": "Não informado",
+        "volume_kg_mensal": 1.9,
+        "preco_expresso": 6.0,
+        "preco_cafe_compra": 0,
+        "tipo_maquina": "Não informado",
+        "tem_comodato": "Não informado"
+      }
+    ],
+    "contactado": [],
+    "qualificado": [
+      {
+        "id": "LEAD-20250924092707-5",
+        "nome": "Tabacaria do Ouvidor",
+        "telefone": "(21) 98351-8762",
+        "email": "N/A",
+        "website": "N/A",
+        "instagram": "N/A",
+        "pontuacao": 115,
+        "nota_media": 4.7,
+        "endereco": "Rua do Ouvidor, 39 - Centro, Rio de Janeiro",
+        "bairro": "Centro",
+        "cidade": "Rio De Janeiro",
+        "latitude": -22.9021868,
+        "longitude": -43.17539599999999,
+        "tipo": "Cafe",
+        "data_entrada": "2025-09-24 09:27",
+        "ultimo_contato": null,
+        "proximo_contato": "2025-09-27",
+        "valor_estimado": 912.0,
+        "faturamento_estimado": 19200.0,
+        "consumo_cafe_kg": 7.6,
+        "volume_clientes": 20.0,
+        "ticket_medio": 32.0,
+        "probabilidade": 40,
+        "responsavel": "Usuário Demo",
+        "notas": "Lead com faturamento sólido e bom volume. Foco em qualidade. A abordagem deve ser na diferenciação e aumento do ticket médio.",
+        "insights_ia": "Notamos o quanto seus clientes elogiam o Premium/Sofisticado - Valoriza qualidade e experiência. Um café à altura, como o da Orfeu, pode elevar ainda mais essa experiência. Qual sua opinião sobre o café que servem hoje?",
+        "visitas": [],
+        "nome_contato": "Renato",
+        "cargo_contato": "Não informado",
+        "telefone_contato": "Não informado",
+        "analise_completa": {
+          "tamanho_estimado": "medio",
+          "volume_clientes_dia": 20.0,
+          "ticket_medio": 32.0,
+          "consumo_cafe_estimado_kg": 7.6,
+          "faturamento_mensal_estimado": 19200.0,
+          "potencial_venda_cafe": 912.0,
+          "perfil_cliente": "Premium/Sofisticado - Valoriza qualidade e experiência",
+          "melhor_horario_visita": "14h-16h (entre picos de movimento)",
+          "pontos_fortes": [],
+          "oportunidades": [],
+          "preco_expresso_estimado": 6.0,
+          "num_funcionarios": 12.0,
+          "tamanho_m2": 100.0,
+          "horario_pico": null,
+          "tempo_permanencia_medio": 60.0,
+          "taxa_ocupacao_media": 0.6,
+          "confiabilidade_dados": 15.0,
+          "fontes_dados": [
+            "Análise Estatística"
+          ],
+          "mencoes_cafe": 1.0,
+          "qualidade_cafe_score": 5.0,
+          "sentiment_score": 100.0,
+          "instagram_followers": 0.0,
+          "popular_times": {},
+          "servicos_oferecidos": {
+            "cafe_manha": true,
+            "almoco": true,
+            "jantar": false,
+            "delivery": false,
+            "wifi": false,
+            "estacionamento": false
+          },
+          "resumo_executivo": "Lead com faturamento sólido e bom volume. Foco em qualidade. A abordagem deve ser na diferenciação e aumento do ticket médio.",
+          "gatilhos_venda": {
+            "pontos_fortes": [
+              "Alto volume: 20.0 clientes/dia comprovados",
+              "Faturamento sólido de R$ 19,200/mês"
+            ],
+            "oportunidades": [
+              "Potencial de 7.6kg/mês = R$ 912.00",
+              "Melhoria na qualidade do café (atual: 5.0/5)"
+            ],
+            "dica_abordagem": "Visitar no horário 14h-16h (entre picos de movimento) e demonstrar impacto no ticket médio."
+          },
+          "mensagem_whatsapp": "Notamos o quanto seus clientes elogiam o Premium/Sofisticado - Valoriza qualidade e experiência. Um café à altura, como o da Orfeu, pode elevar ainda mais essa experiência. Qual sua opinião sobre o café que servem hoje?"
+        },
+        "tags": [
+          "🔥 Hot Lead",
+          "⭐ Alta Qualidade",
+          "☕ Cafeteria"
+        ],
+        "historico": [
+          {
+            "data": "2025-09-24 09:29",
+            "acao": "Informações de market share atualizadas",
+            "usuario": "Usuário Demo"
+          },
+          {
+            "data": "2025-09-24 09:29",
+            "acao": "Temperatura alterada para morno",
+            "usuario": "Usuário Demo"
+          },
+          {
+            "data": "2025-09-24 09:29",
+            "acao": "Movido de novo para contactado",
+            "usuario": "Usuário Demo"
+          },
+          {
+            "data": "2025-09-24 09:47",
+            "acao": "Movido de contactado para qualificado",
+            "usuario": "Usuário Demo"
+          }
+        ],
+        "selecionado_rota": false,
+        "temperatura": "morno",
+        "cafe_atual": "3 corações",
+        "volume_kg_mensal": 21.6,
+        "preco_expresso": 6.5,
+        "preco_cafe_compra": 0.0,
+        "tipo_maquina": "Não informado",
+        "tem_comodato": "Não informado"
+      }
+    ],
+    "proposta": [],
+    "negociacao": [
+      {
+        "id": "LEAD-20250922121357-1",
+        "nome": "Casa Cavé",
+        "telefone": "(21) 2224-2520",
+        "email": "N/A",
+        "website": "http://www.casacave.com.br/",
+        "instagram": "N/A",
+        "pontuacao": 130,
+        "nota_media": 4.4,
+        "endereco": "Rua Sete de Setembro, 133 - Centro, Rio de Janeiro",
+        "bairro": "Centro",
+        "cidade": "Rio De Janeiro",
+        "latitude": -22.9058951,
+        "longitude": -43.1791487,
+        "tipo": "Restaurant",
+        "data_entrada": "2025-09-22 12:13",
+        "ultimo_contato": null,
+        "proximo_contato": "2025-09-24",
+        "valor_estimado": 3636.0,
+        "faturamento_estimado": 124032.0,
+        "consumo_cafe_kg": 30.3,
+        "volume_clientes": 136.0,
+        "ticket_medio": 30.4,
+        "probabilidade": 80,
+        "responsavel": "Usuário Demo",
+        "notas": "Lead com faturamento sólido e bom volume. Foco em qualidade. A abordagem deve ser na diferenciação e aumento do ticket médio.",
+        "insights_ia": "Notamos o quanto seus clientes elogiam o Premium/Sofisticado - Valoriza qualidade e experiência. Um café à altura, como o da Orfeu, pode elevar ainda mais essa experiência. Qual sua opinião sobre o café que servem hoje?",
+        "visitas": [],
+        "nome_contato": "Jorge",
+        "cargo_contato": "Não informado",
+        "telefone_contato": "Não informado",
+        "analise_completa": {
+          "tamanho_estimado": "grande",
+          "volume_clientes_dia": 136.0,
+          "ticket_medio": 30.4,
+          "consumo_cafe_estimado_kg": 30.3,
+          "faturamento_mensal_estimado": 124032.0,
+          "potencial_venda_cafe": 3636.0,
+          "perfil_cliente": "Premium/Sofisticado - Valoriza qualidade e experiência",
+          "melhor_horario_visita": "14h-16h (entre picos de movimento)",
+          "pontos_fortes": [],
+          "oportunidades": [],
+          "preco_expresso_estimado": 7.2,
+          "num_funcionarios": 15.0,
+          "tamanho_m2": 100.0,
+          "horario_pico": null,
+          "tempo_permanencia_medio": 60.0,
+          "taxa_ocupacao_media": 0.6,
+          "confiabilidade_dados": 40.0,
+          "fontes_dados": [
+            "Reviews Google",
+            "Análise Estatística"
+          ],
+          "mencoes_cafe": 1.0,
+          "qualidade_cafe_score": 2.0,
+          "sentiment_score": 68.0,
+          "instagram_followers": 0.0,
+          "popular_times": {},
+          "servicos_oferecidos": {
+            "cafe_manha": true,
+            "almoco": true,
+            "jantar": true,
+            "delivery": false,
+            "wifi": false,
+            "estacionamento": false
+          },
+          "resumo_executivo": "Lead com faturamento sólido e bom volume. Foco em qualidade. A abordagem deve ser na diferenciação e aumento do ticket médio.",
+          "gatilhos_venda": {
+            "pontos_fortes": [
+              "Alto volume: 136.0 clientes/dia comprovados",
+              "Faturamento sólido de R$ 124,032/mês"
+            ],
+            "oportunidades": [
+              "Potencial de 30.3kg/mês = R$ 3,636.00",
+              "Melhoria na qualidade do café (atual: 2.0/5)"
+            ],
+            "dica_abordagem": "Visitar no horário 14h-16h (entre picos de movimento) e demonstrar impacto no ticket médio."
+          },
+          "mensagem_whatsapp": "Notamos o quanto seus clientes elogiam o Premium/Sofisticado - Valoriza qualidade e experiência. Um café à altura, como o da Orfeu, pode elevar ainda mais essa experiência. Qual sua opinião sobre o café que servem hoje?"
+        },
+        "tags": [
+          "🔥 Hot Lead",
+          "🍽️ Restaurante"
+        ],
+        "historico": [
+          {
+            "data": "2025-09-23 15:49",
+            "acao": "Informações de market share atualizadas",
+            "usuario": "Usuário Demo"
+          },
+          {
+            "data": "2025-09-23 15:49",
+            "acao": "Temperatura alterada para morno",
+            "usuario": "Usuário Demo"
+          },
+          {
+            "data": "2025-09-23 15:49",
+            "acao": "Movido de novo para contactado",
+            "usuario": "Usuário Demo"
+          },
+          {
+            "data": "2025-09-23 15:53",
+            "acao": "Movido de contactado para qualificado",
+            "usuario": "Usuário Demo"
+          },
+          {
+            "data": "2025-09-23 15:53",
+            "acao": "Movido de qualificado para proposta",
+            "usuario": "Usuário Demo"
+          },
+          {
+            "data": "2025-09-24 09:48",
+            "acao": "Movido de proposta para negociacao",
+            "usuario": "Usuário Demo"
+          }
+        ],
+        "selecionado_rota": false,
+        "temperatura": "morno",
+        "cafe_atual": "3 corações",
+        "volume_kg_mensal": 30.3,
+        "preco_expresso": 7.2,
+        "preco_cafe_compra": 0.0,
+        "tipo_maquina": "Não informado",
+        "tem_comodato": "Não informado"
+      }
+    ],
+    "ganho": [],
+    "perdido": []
+  },
+  "atividades": [],
+  "historico_interacoes": {},
+  "analises_ia": {
+    "LEAD-20250922121351-0": {
+      "tamanho_estimado": "medio",
+      "volume_clientes_dia": 20.0,
+      "ticket_medio": 36.0,
+      "consumo_cafe_estimado_kg": 10.8,
+      "faturamento_mensal_estimado": 21600.0,
+      "potencial_venda_cafe": 1296.0,
+      "perfil_cliente": "Premium/Sofisticado - Valoriza qualidade e experiência",
+      "melhor_horario_visita": "14h-16h (entre picos de movimento)",
+      "pontos_fortes": [],
+      "oportunidades": [],
+      "preco_expresso_estimado": 6.0,
+      "num_funcionarios": 12.0,
+      "tamanho_m2": 100.0,
+      "horario_pico": null,
+      "tempo_permanencia_medio": 60.0,
+      "taxa_ocupacao_media": 0.6,
+      "confiabilidade_dados": 15.0,
+      "fontes_dados": [
+        "Análise Estatística"
+      ],
+      "mencoes_cafe": 5.0,
+      "qualidade_cafe_score": 5.0,
+      "sentiment_score": 100.0,
+      "instagram_followers": 4505.0,
+      "popular_times": {},
+      "servicos_oferecidos": {
+        "cafe_manha": true,
+        "almoco": true,
+        "jantar": false,
+        "delivery": false,
+        "wifi": false,
+        "estacionamento": false
+      },
+      "resumo_executivo": "Lead com faturamento sólido e bom volume. Foco em qualidade. A abordagem deve ser na diferenciação e aumento do ticket médio.",
+      "gatilhos_venda": {
+        "pontos_fortes": [
+          "Alto volume: 20.0 clientes/dia comprovados",
+          "Faturamento sólido de R$ 21,600/mês"
+        ],
+        "oportunidades": [
+          "Potencial de 10.8kg/mês = R$ 1,296.00",
+          "Melhoria na qualidade do café (atual: 5.0/5)"
+        ],
+        "dica_abordagem": "Visitar no horário 14h-16h (entre picos de movimento) e demonstrar impacto no ticket médio."
+      },
+      "mensagem_whatsapp": "Notamos o quanto seus clientes elogiam o Premium/Sofisticado - Valoriza qualidade e experiência. Um café à altura, como o da Orfeu, pode elevar ainda mais essa experiência. Qual sua opinião sobre o café que servem hoje?"
+    },
+    "LEAD-20250922121357-1": {
+      "tamanho_estimado": "grande",
+      "volume_clientes_dia": 136.0,
+      "ticket_medio": 30.4,
+      "consumo_cafe_estimado_kg": 30.3,
+      "faturamento_mensal_estimado": 124032.0,
+      "potencial_venda_cafe": 3636.0,
+      "perfil_cliente": "Premium/Sofisticado - Valoriza qualidade e experiência",
+      "melhor_horario_visita": "14h-16h (entre picos de movimento)",
+      "pontos_fortes": [],
+      "oportunidades": [],
+      "preco_expresso_estimado": 7.2,
+      "num_funcionarios": 15.0,
+      "tamanho_m2": 100.0,
+      "horario_pico": null,
+      "tempo_permanencia_medio": 60.0,
+      "taxa_ocupacao_media": 0.6,
+      "confiabilidade_dados": 40.0,
+      "fontes_dados": [
+        "Reviews Google",
+        "Análise Estatística"
+      ],
+      "mencoes_cafe": 1.0,
+      "qualidade_cafe_score": 2.0,
+      "sentiment_score": 68.0,
+      "instagram_followers": 0.0,
+      "popular_times": {},
+      "servicos_oferecidos": {
+        "cafe_manha": true,
+        "almoco": true,
+        "jantar": true,
+        "delivery": false,
+        "wifi": false,
+        "estacionamento": false
+      },
+      "resumo_executivo": "Lead com faturamento sólido e bom volume. Foco em qualidade. A abordagem deve ser na diferenciação e aumento do ticket médio.",
+      "gatilhos_venda": {
+        "pontos_fortes": [
+          "Alto volume: 136.0 clientes/dia comprovados",
+          "Faturamento sólido de R$ 124,032/mês"
+        ],
+        "oportunidades": [
+          "Potencial de 30.3kg/mês = R$ 3,636.00",
+          "Melhoria na qualidade do café (atual: 2.0/5)"
+        ],
+        "dica_abordagem": "Visitar no horário 14h-16h (entre picos de movimento) e demonstrar impacto no ticket médio."
+      },
+      "mensagem_whatsapp": "Notamos o quanto seus clientes elogiam o Premium/Sofisticado - Valoriza qualidade e experiência. Um café à altura, como o da Orfeu, pode elevar ainda mais essa experiência. Qual sua opinião sobre o café que servem hoje?"
+    },
+    "LEAD-20250923154329-2": {
+      "tamanho_estimado": "pequeno",
+      "volume_clientes_dia": 20.0,
+      "ticket_medio": 27.0,
+      "consumo_cafe_estimado_kg": 2.8,
+      "faturamento_mensal_estimado": 16200.0,
+      "potencial_venda_cafe": 336.0,
+      "perfil_cliente": "Corporativo - Frequentado por profissionais",
+      "melhor_horario_visita": "14h-16h (entre picos de movimento)",
+      "pontos_fortes": [],
+      "oportunidades": [],
+      "preco_expresso_estimado": 4.8,
+      "num_funcionarios": 18.0,
+      "tamanho_m2": 100.0,
+      "horario_pico": null,
+      "tempo_permanencia_medio": 60.0,
+      "taxa_ocupacao_media": 0.6,
+      "confiabilidade_dados": 15.0,
+      "fontes_dados": [
+        "Análise Estatística"
+      ],
+      "mencoes_cafe": 0.0,
+      "qualidade_cafe_score": 0.0,
+      "sentiment_score": 20.0,
+      "instagram_followers": 6185.0,
+      "popular_times": {},
+      "servicos_oferecidos": {
+        "cafe_manha": true,
+        "almoco": false,
+        "jantar": false,
+        "delivery": false,
+        "wifi": false,
+        "estacionamento": false
+      },
+      "resumo_executivo": "Lead com faturamento sólido e bom volume. Foco em qualidade. A abordagem deve ser na diferenciação e aumento do ticket médio.",
+      "gatilhos_venda": {
+        "pontos_fortes": [
+          "Alto volume: 20.0 clientes/dia comprovados",
+          "Faturamento sólido de R$ 16,200/mês"
+        ],
+        "oportunidades": [
+          "Potencial de 2.8kg/mês = R$ 336.00",
+          "Melhoria na qualidade do café (atual: 0.0/5)"
+        ],
+        "dica_abordagem": "Visitar no horário 14h-16h (entre picos de movimento) e demonstrar impacto no ticket médio."
+      },
+      "mensagem_whatsapp": "Notamos o quanto seus clientes elogiam o Corporativo - Frequentado por profissionais. Um café à altura, como o da Orfeu, pode elevar ainda mais essa experiência. Qual sua opinião sobre o café que servem hoje?"
+    },
+    "LEAD-20250923154334-3": {
+      "tamanho_estimado": "pequeno",
+      "volume_clientes_dia": 26.0,
+      "ticket_medio": 30.0,
+      "consumo_cafe_estimado_kg": 14.2,
+      "faturamento_mensal_estimado": 23400.0,
+      "potencial_venda_cafe": 1704.0,
+      "perfil_cliente": "Premium/Sofisticado - Valoriza qualidade e experiência",
+      "melhor_horario_visita": "14h-16h (entre picos de movimento)",
+      "pontos_fortes": [],
+      "oportunidades": [],
+      "preco_expresso_estimado": 6.0,
+      "num_funcionarios": 12.0,
+      "tamanho_m2": 100.0,
+      "horario_pico": null,
+      "tempo_permanencia_medio": 60.0,
+      "taxa_ocupacao_media": 0.6,
+      "confiabilidade_dados": 25.0,
+      "fontes_dados": [
+        "Reviews Google"
+      ],
+      "mencoes_cafe": 0.0,
+      "qualidade_cafe_score": 0.0,
+      "sentiment_score": 60.0,
+      "instagram_followers": 0.0,
+      "popular_times": {},
+      "servicos_oferecidos": {
+        "cafe_manha": true,
+        "almoco": true,
+        "jantar": false,
+        "delivery": false,
+        "wifi": false,
+        "estacionamento": false
+      },
+      "resumo_executivo": "Lead com faturamento sólido e bom volume. Foco em qualidade. A abordagem deve ser na diferenciação e aumento do ticket médio.",
+      "gatilhos_venda": {
+        "pontos_fortes": [
+          "Alto volume: 26.0 clientes/dia comprovados",
+          "Faturamento sólido de R$ 23,400/mês"
+        ],
+        "oportunidades": [
+          "Potencial de 14.2kg/mês = R$ 1,704.00",
+          "Melhoria na qualidade do café (atual: 0.0/5)"
+        ],
+        "dica_abordagem": "Visitar no horário 14h-16h (entre picos de movimento) e demonstrar impacto no ticket médio."
+      },
+      "mensagem_whatsapp": "Notamos o quanto seus clientes elogiam o Premium/Sofisticado - Valoriza qualidade e experiência. Um café à altura, como o da Orfeu, pode elevar ainda mais essa experiência. Qual sua opinião sobre o café que servem hoje?"
+    },
+    "LEAD-20250924092652-3": {
+      "tamanho_estimado": "medio",
+      "volume_clientes_dia": 20.0,
+      "ticket_medio": 36.0,
+      "consumo_cafe_estimado_kg": 10.8,
+      "faturamento_mensal_estimado": 21600.0,
+      "potencial_venda_cafe": 1296.0,
+      "perfil_cliente": "Premium/Sofisticado - Valoriza qualidade e experiência",
+      "melhor_horario_visita": "14h-16h (entre picos de movimento)",
+      "pontos_fortes": [],
+      "oportunidades": [],
+      "preco_expresso_estimado": 6.0,
+      "num_funcionarios": 12.0,
+      "tamanho_m2": 100.0,
+      "horario_pico": null,
+      "tempo_permanencia_medio": 60.0,
+      "taxa_ocupacao_media": 0.6,
+      "confiabilidade_dados": 15.0,
+      "fontes_dados": [
+        "Análise Estatística"
+      ],
+      "mencoes_cafe": 5.0,
+      "qualidade_cafe_score": 5.0,
+      "sentiment_score": 100.0,
+      "instagram_followers": 11443.0,
+      "popular_times": {},
+      "servicos_oferecidos": {
+        "cafe_manha": true,
+        "almoco": true,
+        "jantar": false,
+        "delivery": false,
+        "wifi": false,
+        "estacionamento": false
+      },
+      "resumo_executivo": "Lead com faturamento sólido e bom volume. Foco em qualidade. A abordagem deve ser na diferenciação e aumento do ticket médio.",
+      "gatilhos_venda": {
+        "pontos_fortes": [
+          "Alto volume: 20.0 clientes/dia comprovados",
+          "Faturamento sólido de R$ 21,600/mês"
+        ],
+        "oportunidades": [
+          "Potencial de 10.8kg/mês = R$ 1,296.00",
+          "Melhoria na qualidade do café (atual: 5.0/5)"
+        ],
+        "dica_abordagem": "Visitar no horário 14h-16h (entre picos de movimento) e demonstrar impacto no ticket médio."
+      },
+      "mensagem_whatsapp": "Notamos o quanto seus clientes elogiam o Premium/Sofisticado - Valoriza qualidade e experiência. Um café à altura, como o da Orfeu, pode elevar ainda mais essa experiência. Qual sua opinião sobre o café que servem hoje?"
+    },
+    "LEAD-20250924092703-4": {
+      "tamanho_estimado": "grande",
+      "volume_clientes_dia": 24.0,
+      "ticket_medio": 32.0,
+      "consumo_cafe_estimado_kg": 19.4,
+      "faturamento_mensal_estimado": 23040.0,
+      "potencial_venda_cafe": 2328.0,
+      "perfil_cliente": "Premium/Sofisticado - Valoriza qualidade e experiência",
+      "melhor_horario_visita": "14h-16h (entre picos de movimento)",
+      "pontos_fortes": [],
+      "oportunidades": [],
+      "preco_expresso_estimado": 6.0,
+      "num_funcionarios": 12.0,
+      "tamanho_m2": 100.0,
+      "horario_pico": null,
+      "tempo_permanencia_medio": 60.0,
+      "taxa_ocupacao_media": 0.6,
+      "confiabilidade_dados": 15.0,
+      "fontes_dados": [
+        "Análise Estatística"
+      ],
+      "mencoes_cafe": 5.0,
+      "qualidade_cafe_score": 5.0,
+      "sentiment_score": 100.0,
+      "instagram_followers": 7913.0,
+      "popular_times": {},
+      "servicos_oferecidos": {
+        "cafe_manha": true,
+        "almoco": true,
+        "jantar": false,
+        "delivery": false,
+        "wifi": false,
+        "estacionamento": false
+      },
+      "resumo_executivo": "Lead com faturamento sólido e bom volume. Foco em qualidade. A abordagem deve ser na diferenciação e aumento do ticket médio.",
+      "gatilhos_venda": {
+        "pontos_fortes": [
+          "Alto volume: 24.0 clientes/dia comprovados",
+          "Faturamento sólido de R$ 23,040/mês"
+        ],
+        "oportunidades": [
+          "Potencial de 19.4kg/mês = R$ 2,328.00",
+          "Melhoria na qualidade do café (atual: 5.0/5)"
+        ],
+        "dica_abordagem": "Visitar no horário 14h-16h (entre picos de movimento) e demonstrar impacto no ticket médio."
+      },
+      "mensagem_whatsapp": "Notamos o quanto seus clientes elogiam o Premium/Sofisticado - Valoriza qualidade e experiência. Um café à altura, como o da Orfeu, pode elevar ainda mais essa experiência. Qual sua opinião sobre o café que servem hoje?"
+    },
+    "LEAD-20250924092707-5": {
+      "tamanho_estimado": "medio",
+      "volume_clientes_dia": 20.0,
+      "ticket_medio": 32.0,
+      "consumo_cafe_estimado_kg": 7.6,
+      "faturamento_mensal_estimado": 19200.0,
+      "potencial_venda_cafe": 912.0,
+      "perfil_cliente": "Premium/Sofisticado - Valoriza qualidade e experiência",
+      "melhor_horario_visita": "14h-16h (entre picos de movimento)",
+      "pontos_fortes": [],
+      "oportunidades": [],
+      "preco_expresso_estimado": 6.0,
+      "num_funcionarios": 12.0,
+      "tamanho_m2": 100.0,
+      "horario_pico": null,
+      "tempo_permanencia_medio": 60.0,
+      "taxa_ocupacao_media": 0.6,
+      "confiabilidade_dados": 15.0,
+      "fontes_dados": [
+        "Análise Estatística"
+      ],
+      "mencoes_cafe": 1.0,
+      "qualidade_cafe_score": 5.0,
+      "sentiment_score": 100.0,
+      "instagram_followers": 0.0,
+      "popular_times": {},
+      "servicos_oferecidos": {
+        "cafe_manha": true,
+        "almoco": true,
+        "jantar": false,
+        "delivery": false,
+        "wifi": false,
+        "estacionamento": false
+      },
+      "resumo_executivo": "Lead com faturamento sólido e bom volume. Foco em qualidade. A abordagem deve ser na diferenciação e aumento do ticket médio.",
+      "gatilhos_venda": {
+        "pontos_fortes": [
+          "Alto volume: 20.0 clientes/dia comprovados",
+          "Faturamento sólido de R$ 19,200/mês"
+        ],
+        "oportunidades": [
+          "Potencial de 7.6kg/mês = R$ 912.00",
+          "Melhoria na qualidade do café (atual: 5.0/5)"
+        ],
+        "dica_abordagem": "Visitar no horário 14h-16h (entre picos de movimento) e demonstrar impacto no ticket médio."
+      },
+      "mensagem_whatsapp": "Notamos o quanto seus clientes elogiam o Premium/Sofisticado - Valoriza qualidade e experiência. Um café à altura, como o da Orfeu, pode elevar ainda mais essa experiência. Qual sua opinião sobre o café que servem hoje?"
+    },
+    "LEAD-20250924094655-5": {
+      "tamanho_estimado": "pequeno",
+      "volume_clientes_dia": 20.0,
+      "ticket_medio": 40.0,
+      "consumo_cafe_estimado_kg": 1.9,
+      "faturamento_mensal_estimado": 24000.0,
+      "potencial_venda_cafe": 228.0,
+      "perfil_cliente": "Premium/Sofisticado - Valoriza qualidade e experiência",
+      "melhor_horario_visita": "14h-16h (entre picos de movimento)",
+      "pontos_fortes": [],
+      "oportunidades": [],
+      "preco_expresso_estimado": 6.0,
+      "num_funcionarios": 15.0,
+      "tamanho_m2": 150.0,
+      "horario_pico": null,
+      "tempo_permanencia_medio": 60.0,
+      "taxa_ocupacao_media": 0.6,
+      "confiabilidade_dados": 35.0,
+      "fontes_dados": [
+        "Pesquisa Web",
+        "Análise Estatística"
+      ],
+      "mencoes_cafe": 0.0,
+      "qualidade_cafe_score": 0.0,
+      "sentiment_score": 88.0,
+      "instagram_followers": 5420.0,
+      "popular_times": {},
+      "servicos_oferecidos": {
+        "cafe_manha": false,
+        "almoco": false,
+        "jantar": false,
+        "delivery": false,
+        "wifi": false,
+        "estacionamento": false
+      },
+      "resumo_executivo": "Lead com faturamento sólido e bom volume. Foco em qualidade. A abordagem deve ser na diferenciação e aumento do ticket médio.",
+      "gatilhos_venda": {
+        "pontos_fortes": [
+          "Alto volume: 20.0 clientes/dia comprovados",
+          "Faturamento sólido de R$ 24,000/mês"
+        ],
+        "oportunidades": [
+          "Potencial de 1.9kg/mês = R$ 228.00",
+          "Melhoria na qualidade do café (atual: 0.0/5)"
+        ],
+        "dica_abordagem": "Visitar no horário 14h-16h (entre picos de movimento) e demonstrar impacto no ticket médio."
+      },
+      "mensagem_whatsapp": "Notamos o quanto seus clientes elogiam o Premium/Sofisticado - Valoriza qualidade e experiência. Um café à altura, como o da Orfeu, pode elevar ainda mais essa experiência. Qual sua opinião sobre o café que servem hoje?"
+    }
+  },
+  "dados_mensais": {
+    "2025-09": {
+      "meta": 300000.0,
+      "porcentagem_meta": 120,
+      "vendas": [
+        {
+          "data": "2025-09-23 00:00:00",
+          "cliente": "Fazanno",
+          "valor": 20000.0,
+          "produtos": [
+            {
+              "produto": "Grãos 1KG",
+              "quantidade": 5
+            },
+            {
+              "produto": "Cap C9",
+              "quantidade": 5
+            }
+          ],
+          "vendedor": "Usuário Demo",
+          "observacoes": "",
+          "novo_cliente": false
+        },
+        {
+          "data": "2025-09-22 00:00:00",
+          "cliente": "seu jogao",
+          "valor": 20000.0,
+          "produtos": [
+            {
+              "produto": "Grãos 1KG",
+              "quantidade": 5
+            },
+            {
+              "produto": "Drip Coffee",
+              "quantidade": 5
+            }
+          ],
+          "vendedor": "Usuário Demo",
+          "observacoes": "",
+          "novo_cliente": false
+        }
+      ]
+    }
+  },
+  "timestamp": "2025-09-24T16:22:35.169143"
+}
